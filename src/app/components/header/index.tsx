@@ -46,7 +46,9 @@ const Header = () => {
               <p className="roboto font-semibold text text-3xl">
                 The Glass House
               </p>
-              <p className="italic roboto font-thin text-base">Even stones are edible</p>
+              <p className="italic roboto font-thin text-base">
+                Even stones are edible
+              </p>
             </span>
           </div>
 
@@ -120,7 +122,7 @@ const Header = () => {
                   setIsMenuOpen(false);
                   toggleModal();
                 }}
-                className="roboto text-[14px] p-2 w-[167px] bg-[#E33629] text-white rounded-md hover:bg-[#c72a22] transition-colors duration-300"
+                className="roboto text-[14px] p-2 w-[167px] bg-[#B8860B] text-white rounded-md hover:bg-[#B8860B] transition-colors duration-300"
               >
                 Make Reservation
               </button>
