@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
@@ -14,12 +14,15 @@ const Footer = () => {
       <div className=" flex md:flex-row flex-col md:justify-between space-y-16 md:space-y-0 md:mx-16 mx-5">
         <div className=" space-y-4">
           <Link href="/">
-            <Image src="/images/logo.png" alt="logo" height={50} width={50} />
+            <p className="roboto md:font-semibold font-medium text-lg md:text-3xl">
+              {" "}
+              The Glass House
+            </p>
           </Link>
           <div className="flex flex-col space-y-2">
             <p className="raleway text-base  font-semibold">Address</p>
             <span className="roboto text-sm font-normal">
-              <p>142 Lekki Epe, Expressway</p>
+              <p>KM 143, Lekki Epe expressway, Ikate lagos</p>
             </span>
           </div>
           <div className="flex flex-col space-y-2">
@@ -42,7 +45,9 @@ const Footer = () => {
             </span>
             <span className="flex flex-row space-x-2 roboto text-sm font-normal">
               <InstagramIcon />
-              <p>Instagram</p>
+              <a href="https://www.instagram.com/theglasshouselagos/">
+                Instagram
+              </a>
             </span>
             <span className="flex flex-row space-x-2 roboto text-sm font-normal">
               <XIcon />
@@ -52,22 +57,24 @@ const Footer = () => {
               <LinkedInIcon />
               <p>LinkedIn</p>
             </span>
+            <span className="flex flex-row space-x-2 roboto text-sm font-normal">
+              <div>
+                <img src="/images/snap.png" alt="bar" className="w-7 h-5" />
+              </div>
+              <a href="https://www.snapchat.com/add/glasshouselagos?share_id=gRwzQ7i9uxs&locale=en-GB">
+                Snapchat
+              </a>
+            </span>
           </div>
         </div>
       </div>
 
       <div className="border-t-2 border-t-[#FFFFFF80] md:mt-20 mt-10 md:mx-16 mx-5">
-        <div className="flex md:flex-row flex-col-reverse justify-between mt-8 roboto text-sm font-normal">
+        <div className="flex justify-center mt-8 roboto text-sm font-normal">
           {/* Left Section */}
           <span className="mt-4 md:mt-0">
-            <p>&copy; 2024 Relume. All rights reserved.</p>
+            <p>&copy; 2024. The Glass House.</p>
           </span>
-
-          {/* Right Section */}
-          <div className="flex md:flex-row flex-col md:space-x-4 space-y-2 md:space-y-0">
-            <p className="underline">Privacy Policy</p>
-            <p className="underline">Terms of Service</p>
-          </div>
         </div>
       </div>
     </div>

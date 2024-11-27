@@ -21,21 +21,20 @@ const Header = () => {
     <>
       {/* Large Screens (md and above) */}
       <div className="hidden md:flex flex-row justify-between items-center md:mx-16 mx-5 md:p-6 p-4 border-b-2 border-b-[#EDF8FA] md:mb-20 mb-10">
-        <div className="raleway flex flex-row justify-between items-center font-normal text-sm w-[100%]">
-          {/* Navigation Links */}
+        <div className="raleway flex flex-row justify-between items-center font-normal text-lg w-[100%]">
           <div>
             <ul className="flex flex-row space-x-4">
               <li>
                 <Link href="/menu">
-                  <p className="hover:text-[#E33629] transition-colors duration-300">
+                  <p className="hover:text-[#E33629] text-lg transition-colors duration-300">
                     Menu
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="#about-us">
-                  <p className="hover:text-[#E33629] transition-colors duration-300">
-                    About Us
+                  <p className="hover:text-[#E33629] text-lg transition-colors duration-300">
+                    Contact Us
                   </p>
                 </Link>
               </li>
@@ -43,13 +42,18 @@ const Header = () => {
           </div>
 
           <div>
-            <Image src="/images/logo.png" alt="logo" height={50} width={50} />
+            <span className="flex flex-col items-center">
+              <p className="roboto font-semibold text text-3xl">
+                The Glass House
+              </p>
+              <p className="italic roboto font-thin text-base">Even stones are edible</p>
+            </span>
           </div>
 
           <div>
             <button
               onClick={toggleModal}
-              className="roboto text-[14px] p-2 w-[167px] bg-[#E33629] text-white rounded-md hover:bg-[#c72a22] transition-colors duration-300"
+              className="roboto text-[14px] p-2 w-[167px] bg-[#B8860B] text-white rounded-md hover:bg-[#B8860B] transition-colors duration-300"
             >
               Make Reservation
             </button>
@@ -59,7 +63,7 @@ const Header = () => {
 
       <div className="flex md:hidden flex-row justify-between mx-5 p-4 items-center border-b-2 border-b-[#EDF8FA] mb-10">
         <div className="flex justify-center items-center">
-          <Image src="/images/logo.png" alt="logo" height={50} width={50} />
+          <p className="roboto font-medium text-lg">The Glass House</p>
         </div>
 
         <div className="flex justify-center items-center">
@@ -106,7 +110,7 @@ const Header = () => {
                   className="text-lg text-[#E33629] hover:text-[#c72a22] transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  About Us
+                  Contact Us
                 </p>
               </Link>
             </li>

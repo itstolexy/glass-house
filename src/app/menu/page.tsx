@@ -1,4 +1,5 @@
-"use client"
+/* eslint-disable @next/next/no-img-element */
+"use client";
 
 import React from "react";
 import { useRouter } from "next/navigation";
@@ -30,6 +31,13 @@ function Menu() {
         <p className="transform transition-all duration-300 hover:translate-x-16">
           Dessert
         </p>
+        <div className="-mt-10">
+          <img
+            src="/images/cocktail.png"
+            alt="bar"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </div>
   );

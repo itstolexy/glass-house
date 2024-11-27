@@ -2,15 +2,16 @@
 import React from "react";
 import Header from "./components/header";
 import WelcomeSection from "./components/welcomeSection";
-import AboutUs from "./components/aboutUs";
 import Footer from "./components/footer";
+import ContactUs from "./components/contactUs";
+import AboutUs from "./components/aboutUs";
 
 const Home = () => {
   return (
     <div>
       <Header />
       <WelcomeSection />
-      <figure className="w-full h-[70vh] relative overflow-hidden">
+      <figure className="h-[70vh] relative overflow-hidden md:mx-16 mx-5">
         <img
           src="/images/bar.png"
           alt="bar"
@@ -18,7 +19,12 @@ const Home = () => {
         />
       </figure>
       <section id="about-us" className="md:mx-16 mx-5 my-16">
-        <AboutUs />
+        <ContactUs />
+      </section>
+      <section className="bg-black text-white">
+        <div className="md:mx-16 mx-5 mt-16">
+          <AboutUs />
+        </div>
       </section>
       <footer>
         <Footer />

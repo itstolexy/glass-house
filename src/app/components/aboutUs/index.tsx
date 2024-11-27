@@ -1,67 +1,28 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
-      <div className="flex flex-row space-x-4 items-start">
-        <Image src="/images/time.png" alt="time" height={40} width={40} />
-        <div className="flex flex-col space-y-2">
-          <p className="raleway text-2xl font-bold">Open hours</p>
-          <span className="roboto text-base font-normal">
-            <p>Tuesday - Sunday</p>
-            <p>6pm-2am</p>
-          </span>
-        </div>
+    <div className="flex md:flex-row flex-col items-center p-8">
+      <div className="flex flex-col space-y-6 md:w-[50%] w-full">
+        <h1 className="raleway text-5xl font-bold">The Glass House</h1>
+        <p className="raleway text-lg font-medium">
+          Glass House, established in 2018, is dedicated to providing an
+          exceptional experience for relaxation and unwinding. We offer a warm
+          and welcoming ambience suitable for both leisure and business
+          gatherings. Our prime location in Lekki, Lagos, offers stunning views
+          of the city while providing a tranquil escape. We cater to a diverse
+          clientele, offering these distinct experiences
+        </p>
+        <p className="raleway text-lg font-medium">
+          FoLiXx Hospitality offers a variety of spaces to suit your needs and
+          preferences. Whether you&apus;re seeking a casual hangout, a romantic
+          rendezvous, or a comfortable workspace, we create an atmosphere that
+          makes you feel right at home.
+        </p>
       </div>
-
-      <div className="flex flex-row space-x-4 items-start">
-        <Image
-          src="/images/location.png"
-          alt="location"
-          height={40}
-          width={40}
-        />
-        <div className="flex flex-col space-y-2">
-          <p className="raleway text-2xl font-bold">Location</p>
-          <span className="roboto text-base font-normal">
-            <p>142 Lekki Epe, Expressway</p>
-          </span>
-        </div>
-      </div>
-
-      <div className="flex flex-row space-x-4 items-start">
-        <Image src="/images/contact.png" alt="contact" height={40} width={40} />
-        <div className="flex flex-col space-y-2">
-          <p className="raleway text-2xl font-bold">Contact Us</p>
-          <div className="roboto text-base font-normal flex-col space-y-2">
-            <span className="flex flex-row space-x-2">
-              <a href="tel:+2348091460009" className="text-blue-500">
-                08091460009
-              </a>
-            </span>
-
-            <span className="flex flex-row space-x-2">
-              <a
-                href="https://www.instagram.com/theglasshouselagos/"
-                className="text-blue-500"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @theglasshouselagos
-              </a>
-            </span>
-
-            <span className="flex flex-row space-x-2">
-              <a
-                href="mailto:info@glasshouselagos.com"
-                className="text-blue-500"
-              >
-                info@glasshouselagos.com
-              </a>
-            </span>
-          </div>
-        </div>
+      <div className="md:w-[50%] w-full mt-10 md:mt-0 md:ml-20">
+        <img src="/images/gh1.png" alt="bar" />
       </div>
     </div>
   );

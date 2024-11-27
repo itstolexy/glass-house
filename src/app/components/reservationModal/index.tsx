@@ -103,7 +103,7 @@ const ReservationModal: React.FC<ReservationModalProps> = ({
 
           <button
             type="submit"
-            className="w-full bg-[#E33629] text-white font-medium py-2 rounded-md hover:bg-[#c72a22] transition-colors duration-300"
+            className="w-full bg-[#B8860B] text-white font-medium py-2 rounded-md transition-colors duration-300"
           >
             Submit
           </button>
