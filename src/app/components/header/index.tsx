@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useState } from "react";
@@ -26,14 +27,14 @@ const Header = () => {
             <ul className="flex flex-row space-x-4">
               <li>
                 <Link href="/menu">
-                  <p className="hover:text-[#E33629] text-lg transition-colors duration-300">
+                  <p className="hover:text-[#B8860B] text-lg transition-colors duration-300">
                     Menu
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="#about-us">
-                  <p className="hover:text-[#E33629] text-lg transition-colors duration-300">
+                  <p className="hover:text-[#B8860B] text-lg transition-colors duration-300">
                     Contact Us
                   </p>
                 </Link>
@@ -43,9 +44,13 @@ const Header = () => {
 
           <div>
             <span className="flex flex-col items-center">
-              <p className="roboto font-semibold text text-3xl">
-                The Glass House
-              </p>
+              <div>
+                <img
+                  src="/images/logo.png"
+                  alt="bar"
+                  className="w-16 h-16 object-cover"
+                />
+              </div>
               <p className="italic roboto font-thin text-base">
                 Even stones are edible
               </p>
@@ -65,7 +70,13 @@ const Header = () => {
 
       <div className="flex md:hidden flex-row justify-between mx-5 p-4 items-center border-b-2 border-b-[#EDF8FA] mb-10">
         <div className="flex justify-center items-center">
-          <p className="roboto font-medium text-lg">The Glass House</p>
+          <div>
+            <img
+              src="/images/logo.png"
+              alt="bar"
+              className="w-12 h-12 object-cover"
+            />
+          </div>{" "}
         </div>
 
         <div className="flex justify-center items-center">
@@ -99,7 +110,7 @@ const Header = () => {
             <li>
               <Link href="/menu">
                 <p
-                  className="text-lg text-[#E33629] hover:text-[#c72a22] transition-colors duration-300"
+                  className="text-lg text-[#B8860B] hover:text-[#B8860B] transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Menu
@@ -109,7 +120,7 @@ const Header = () => {
             <li>
               <Link href="#about-us">
                 <p
-                  className="text-lg text-[#E33629] hover:text-[#c72a22] transition-colors duration-300"
+                  className="text-lg text-[#B8860B] hover:text-[#B8860B] transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Contact Us

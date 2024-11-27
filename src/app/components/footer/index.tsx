@@ -2,10 +2,10 @@
 "use client";
 
 import React from "react";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+// import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+// import XIcon from "@mui/icons-material/X";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import XIcon from "@mui/icons-material/X";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Link from "next/link";
 
 const Footer = () => {
@@ -40,24 +40,24 @@ const Footer = () => {
           <div className="space-y-4">
             <p className="raleway text-base font-semibold">Follow Us</p>
             <div className="flex flex-col space-y-4">
-              <span className="flex flex-row space-x-2 roboto text-sm font-normal">
+              {/* <span className="flex flex-row space-x-2 roboto text-sm font-normal">
                 <FacebookOutlinedIcon />
                 <p>Facebook</p>
-              </span>
+              </span> */}
               <span className="flex flex-row space-x-2 roboto text-sm font-normal">
                 <InstagramIcon />
                 <a href="https://www.instagram.com/theglasshouselagos/">
                   Instagram
                 </a>
               </span>
-              <span className="flex flex-row space-x-2 roboto text-sm font-normal">
+              {/* <span className="flex flex-row space-x-2 roboto text-sm font-normal">
                 <XIcon />
                 <p>Twitter</p>
-              </span>
-              <span className="flex flex-row space-x-2 roboto text-sm font-normal">
+              </span> */}
+              {/* <span className="flex flex-row space-x-2 roboto text-sm font-normal">
                 <LinkedInIcon />
                 <p>LinkedIn</p>
-              </span>
+              </span> */}
               <span className="flex flex-row space-x-2 roboto text-sm font-normal">
                 <div>
                   <img src="/images/snap.png" alt="bar" className="w-7 h-5" />

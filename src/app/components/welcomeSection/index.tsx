@@ -4,8 +4,9 @@ import React from "react";
 function WelcomeSection() {
   return (
     <section className="flex md:flex-row flex-col md:mx-16 mx-5 md:mb-20 mb-16 md:items-start">
-      <span className="md:text-[56px] text-[38px] md:w-[610px] text-black font-bold raleway">
-        Welcome to The Glass House
+      <span className="md:text-[56px] text-[38px] text-black md:w-[700px] font-bold raleway">
+        <p>Welcome to</p>
+        <p>The Glass House</p>
       </span>
       <div className="flex flex-col mt-12 md:mt-0 space-y-6 md:ml-8">
         <div className="flex flex-col space-y-4 raleway font-normal md:text-lg text-base text-pretty">
