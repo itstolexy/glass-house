@@ -3,10 +3,10 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center p-8">
+    <div className="flex md:flex-row flex-col items-center md:p-8 p2">
       <div className="flex flex-col space-y-6 md:w-[50%] w-full">
-        <h1 className="raleway text-5xl font-bold">The Glass House</h1>
-        <p className="raleway text-lg font-medium">
+        <h1 className="raleway md:text-5xl text-[38px] font-bold">The Glass House</h1>
+        <p className="raleway md:text-lg text-base font-medium">
           Glass House, established in 2018, is dedicated to providing an
           exceptional experience for relaxation and unwinding. We offer a warm
           and welcoming ambience suitable for both leisure and business
@@ -14,7 +14,7 @@ const AboutUs = () => {
           of the city while providing a tranquil escape. We cater to a diverse
           clientele, offering these distinct experiences
         </p>
-        <p className="raleway text-lg font-medium">
+        <p className="raleway md:text-lg text-base font-medium">
           FoLiXx Hospitality offers a variety of spaces to suit your needs and
           preferences. Whether you&apus;re seeking a casual hangout, a romantic
           rendezvous, or a comfortable workspace, we create an atmosphere that
