@@ -28,7 +28,7 @@ const Home = () => {
           className="w-full h-full object-cover rounded-md"
         />
         <span className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <h1 className="raleway md:text-5xl text-center font-medium">
+          <h1 className="raleway md:text-5xl text-2xl text-center font-medium">
             The Glass House
           </h1>
           <p className="italic roboto font-thin md:text-lg text-base mt-3">
