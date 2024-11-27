@@ -33,7 +33,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#about-us">
+                <Link href="/contactUs">
                   <p className="hover:text-[#B8860B] text-lg transition-colors duration-300">
                     Contact Us
                   </p>
@@ -118,7 +118,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="#about-us">
+              <Link href="/contactUs">
                 <p
                   className="text-lg text-[#B8860B] hover:text-[#B8860B] transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}

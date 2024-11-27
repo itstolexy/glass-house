@@ -6,7 +6,6 @@ import React, { useState } from "react";
 import Header from "./components/header";
 import WelcomeSection from "./components/welcomeSection";
 import Footer from "./components/footer";
-import ContactUs from "./components/contactUs";
 import AboutUs from "./components/aboutUs";
 import ReservationModal from "./components/reservationModal";
 
@@ -45,9 +44,6 @@ const Home = () => {
         </span>
       </figure>
 
-      <section id="about-us" className="md:mx-16 mx-5 my-16">
-        <ContactUs />
-      </section>
       <section className="bg-black text-white">
         <div className="md:mx-16 mx-5 mt-16">
           <AboutUs />
