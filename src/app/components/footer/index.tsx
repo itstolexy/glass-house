@@ -15,11 +15,14 @@ const Footer = () => {
         <div className=" flex md:flex-row flex-col md:justify-between space-y-16 md:space-y-0 md:mx-16 mx-5 mt-10 ">
           <div className=" space-y-4">
             <Link href="/">
-              <p className="roboto md:font-semibold font-medium text-lg md:text-3xl">
-                {" "}
-                The Glass House
-              </p>
-            </Link>
+                <div>
+                  <img
+                    src="/images/logo.png"
+                    alt="bar"
+                    className="w-16 h-16 object-cover"
+                  />
+                </div>
+              </Link>
             <div className="flex flex-col space-y-2">
               <p className="raleway text-base  font-semibold">Address</p>
               <span className="roboto text-sm font-normal">

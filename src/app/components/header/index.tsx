@@ -44,13 +44,15 @@ const Header = () => {
 
           <div>
             <span className="flex flex-col items-center">
-              <div>
-                <img
-                  src="/images/logo.png"
-                  alt="bar"
-                  className="w-16 h-16 object-cover"
-                />
-              </div>
+              <Link href="/">
+                <div>
+                  <img
+                    src="/images/logo.png"
+                    alt="bar"
+                    className="w-16 h-16 object-cover"
+                  />
+                </div>
+              </Link>
               <p className="italic roboto font-thin text-base">
                 Even stones are edible
               </p>

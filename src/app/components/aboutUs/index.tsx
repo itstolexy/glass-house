@@ -22,44 +22,39 @@ const AboutUs = () => {
   return (
     <div className="flex md:flex-row flex-col items-center md:p-8 p-2">
       <div className="flex flex-col space-y-6 md:w-[50%] w-full">
-        <span className="raleway md:text-5xl text-[38px] font-bold">
-          <p>Why Choose</p> <p>The Glass House?</p>
+        <span className="raleway md:text-3xl text-xl font-bold">
+          <p>Why Choose The Glass House?</p>
         </span>
         <span className="flex flex-col space-y-1">
-          <h1 className="raleway md:text-2xl text-lg font-bold">
-            Iconic Design & Instagram-Worthy Aesthetics
+          <h1 className="raleway md:text-lg text-base font-bold">
+            Iconic Design & Aesthetics
           </h1>
-          <p className="raleway md:text-lg text-base font-medium">
-            Immerse yourself in a visually stunning space featuring breathtaking
-            glass architecture and stylish interiors. Every corner is crafted to
-            serve as the perfect backdrop for your memorable photos and
-            share-worthy moment
+          <p className="raleway md:text-base text-sm font-medium">
+            A breathtaking blend of glass architecture and stylish interiors,
+            perfect for unforgettable photos and Instagram-worthy moments.
           </p>
         </span>
         <span className="flex flex-col space-y-1">
-          <h1 className="raleway md:text-2xl text-lg font-bold">
-            An Innovative Menu for Culinary Adventurers
+          <h1 className="raleway md:text-lg text-base font-bold">
+            Innovative Menu
           </h1>
-          <p className="raleway md:text-lg text-base font-medium">
-            Savor the fusion of international fine dining and elevated African
-            cuisine. Paired with our signature cocktails, each dish delivers a
-            unique culinary journey designed to delight your senses and leave
-            you craving more.
+          <p className="raleway md:text-base text-sm font-medium">
+            Experience a fusion of international fine dining and elevated
+            African cuisine, paired with signature cocktails for a truly unique
+            culinary journey.
           </p>
         </span>
         <span className="flex flex-col space-y-1">
-          <h1 className="raleway md:text-2xl text-lg font-bold">
-            Vibrant Performances & Entertainment
+          <h1 className="raleway md:text-lg text-base font-bold">
+            Vibrant Entertainment
           </h1>
-          <p className="raleway md:text-lg text-base font-medium">
-            From exclusive events to captivating live performances and themed
-            nights, The Glass House ensures there’s always something
-            extraordinary happening. Perfect for first-time visitors and loyal
-            guests alike, the energy here is unmatched.
+          <p className="raleway md:text-base text-sm font-medium">
+            Enjoy exclusive events, live performances, and themed nights that
+            keep the energy alive and guests coming back for more.
           </p>
         </span>
 
-        <h1 className="raleway md:text-2xl text-lg font-bold">
+        <h1 className="raleway md:text-base text-sm italic">
           The Glass House - Where Elegance, Flavor, and Entertainment Meet.
         </h1>
       </div>
