@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import Header from "./components/header";
 import WelcomeSection from "./components/welcomeSection";
 import Footer from "./components/footer";
+import ContactUs from "./components/contactUs";
 import AboutUs from "./components/aboutUs";
 import ReservationModal from "./components/reservationModal";
 
@@ -27,7 +28,7 @@ const Home = () => {
           className="w-full h-full object-cover rounded-md"
         />
         <span className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <h1 className="raleway md:text-5xl text-2xl text-center font-medium">
+          <h1 className="raleway md:text-5xl text-lg text-center font-medium">
             The Glass House
           </h1>
           <p className="italic roboto font-thin md:text-lg text-base mt-3">
@@ -44,6 +45,9 @@ const Home = () => {
         </span>
       </figure>
 
+      <section id="about-us" className="md:mx-16 mx-5 my-16">
+        <ContactUs />
+      </section>
       <section className="bg-black text-white">
         <div className="md:mx-16 mx-5 mt-16">
           <AboutUs />
