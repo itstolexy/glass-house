@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <>
       {/* Large Screens (md and above) */}
-      <div className="hidden md:flex flex-row justify-between items-center md:mx-16 mx-5 md:p-6 p-4 border-b-2 border-b-[#EDF8FA] md:mb-20 mb-10">
+      <div className="hidden md:flex flex-row justify-between items-center md:mx-16 mx-5 md:p-6 p-4 border-b-2 border-b-[#EDF8FA] md:mb-10 mb-5">
         <div className="raleway flex flex-row justify-between items-center font-normal text-lg w-[100%]">
           <div>
             <ul className="flex flex-row space-x-4">
