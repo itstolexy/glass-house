@@ -53,7 +53,7 @@ const Waitlist = () => {
   };
 
   return (
-    <div className="md:mx-16 mx-5">
+    <div className="md:mx-16 mx-5 md:pb-8">
       <div className="md:p-4 p-2">
         <Image src="/images/logo.png" alt="bar" height={60} width={60} />
       </div>
