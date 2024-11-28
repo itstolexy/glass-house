@@ -71,7 +71,7 @@ const Waitlist = () => {
           </h2>
           <span className="roboto font-normal md:text-lg text-base text-pretty space-y-1">
             <p>
-              <b> Be Among the First ✨ </b>✨
+              <b>✨ Be Among the First ✨ </b>
             </p>
             <p>
               Join our waitlist to secure your spot and experience the perfect
@@ -113,7 +113,7 @@ const Waitlist = () => {
             />
             <button
               type="submit"
-              className={`w-full bg-[#B8860B] text-white py-3 rounded-md font-bold transition duration-200 ${
+              className={`w-full bg-[#B8860B] text-white py-3 rounded-md font-bold ${
                 isSubmitting
                   ? "opacity-50 cursor-not-allowed"
                   : "hover:bg-[#B8860B]"
